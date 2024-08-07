@@ -1,0 +1,32 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "555-555-5555",
+      "birthDate": "1985-05-15"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "555-555-5556",
+      "birthDate": "1990-10-22"
+    },
+    {
+      "id": "6fc3",
+      "name": "rodrigo",
+      "email": "rodrigo@rodriguez",
+      "phone": "123456",
+      "birthday": "2024-08-13T03:00:00.000Z"
+    },
+    {
+      "id": "d41c",
+      "name": "as",
+      "email": "as@asd",
+      "phone": "12345",
+      "birthday": "2024-08-04T03:00:00.000Z"
+    }
+  ]
+}

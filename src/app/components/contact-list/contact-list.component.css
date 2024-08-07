@@ -1,0 +1,54 @@
+.contact-list{
+    display: flex;
+    justify-content: center;
+}
+
+mat-card {
+    margin: 50px;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+mat-list-item {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+mat-divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+mat-list-item {
+  height: auto;
+}
+
+.item {
+  height: auto;
+}
+
+.contact-info-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-title{
+    font-weight: bold;
+    font-size: 18x;
+}
+
+.contact-info-decription{
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.btn-container{
+    margin: 5px;
+}
+
+.btn-parent{
+    display: flex;
+}

@@ -1,0 +1,33 @@
+<div class="contact-form">
+  <p-card class="p-card">
+    <p-header>Agregar Contacto</p-header>
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="form">
+      <div class="p-field">
+        <label for="name">Nombre</label>
+        <input id="name" type="text" pInputText formControlName="name" />
+      </div>
+  
+      <div class="p-field">
+        <label for="email">Email</label>
+        <input id="email" type="email" pInputText formControlName="email" />
+      </div>
+  
+      <div class="p-field">
+        <label for="phone">Teléfono</label>
+        <input id="phone" type="text" pInputText formControlName="phone" />
+      </div>
+  
+      <div class="p-field">
+        <label for="birthday">Fecha de Nacimiento</label>
+        <p-calendar id="birthday" formControlName="birthday" dateFormat="dd/mm/yy"></p-calendar>
+      </div>
+  
+      <button pButton type="submit" label="Guardar" icon="pi pi-check" class="p-mt-2" [disabled]="contactForm.invalid"></button>
+    </form>
+      
+    <div class="link-container">
+      <a routerLink="/" class="link">Volver</a>
+    </div>
+  </p-card>
+
+</div>
